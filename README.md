@@ -5,7 +5,7 @@
 This project provides training pipelines for image classification using CNN and VGG16 architectures with hyperparameter tuning support via Weights & Biases (WandB).
 
 ### Files Included
-
+- `WandbpartA.ipynb`: ipynb file for training sweeps for part A.
 - `TrainA.py`: Trains a custom CNN model with configurable architecture using WandB sweeps.
 - `TrainB.py`: Fine-tunes a VGG16 model with configurable classifier layers, integrated with WandB.
 

@@ -90,7 +90,8 @@ python TrainB.py \
 ---
 
 ## Notes
-
+- You need to provide WandB credentials for proper running of the py code
+- To update the hyperparameters you may access the code and add hyperparameters to the sweep of your interest
 - Training and validation metrics are logged automatically to your WandB dashboard.
 - Each sweep run is uniquely named based on configuration.
 - You can customize the model architecture or hyperparameter space by editing the respective config dictionary or model functions.
@@ -99,4 +100,4 @@ python TrainB.py \
 
 ## Author
 
-This project was developed by `cs23m004` from Indian Institute of Technology Madras.
+This project was developed by `cs23m004`
